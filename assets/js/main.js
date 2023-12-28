@@ -133,8 +133,8 @@
 		$('.spotlights > section')
 			.scrollex({
 				mode: 'middle',
-				top: '-1vh',
-				bottom: '-1vh',
+				top: '-20vh',
+				bottom: '-20vh',
 				initialize: function() {
 
 					// Deactivate section.
@@ -166,11 +166,6 @@
 					$img.hide();
 
 			});
-	    		.on('scroll', function() {
-        			var scrollDirection = $(this).scrollex('instance').state.get('direction');
-        			var mode = (scrollDirection === 'up') ? 'bottom' : 'top';
-        			$(this).scrollex('instance').set('mode', mode);
-    			});
 
 	// Features.
 		$('.features')
