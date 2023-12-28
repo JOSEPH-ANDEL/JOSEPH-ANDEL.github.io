@@ -166,12 +166,7 @@
 					$img.hide();
 
 			});
-	    		.on('scroll', function() {
-       				 var scrollDirection = $(this).scrollex('instance').state.get('direction');
-        			// Dynamically set the mode based on scroll direction
-        			var mode = (scrollDirection === 'up') ? 'bottom' : 'top';
-        			$(this).scrollex('instance').set('mode', mode);
-    			});
+
 	
 
 	// Features.
