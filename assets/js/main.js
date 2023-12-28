@@ -132,8 +132,7 @@
 	// Spotlights.
 		$('.spotlights > section')
 			.scrollex({
-				mode: 'percent',
-				percent: 30,
+				mode: 'middle',
 				top: '-5vh',
 				bottom: '-5vh',
 				initialize: function() {
@@ -167,6 +166,11 @@
 					$img.hide();
 
 			});
+	    		.on('scroll', function() {
+        			var scrollDirection = $(this).scrollex('instance').state.get('direction');
+        			var mode = (scrollDirection === 'up') ? 'bottom' : 'top';
+        			$(this).scrollex('instance').set('mode', mode);
+    			});
 
 	// Features.
 		$('.features')
