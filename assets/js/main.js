@@ -167,8 +167,6 @@
 
 			});
 
-	
-
 	// Features.
 		$('.features')
 			.scrollex({
