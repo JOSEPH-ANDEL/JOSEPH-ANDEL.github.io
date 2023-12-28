@@ -148,18 +148,6 @@
 
 				}
 			})
-        		enter: function () {
-            			var $section = $(this);
-            			if ($section.scrollex('instance').state.get('direction') === 'up') {
-               			 // Scrolling up, deactivate current section
-                			$section.addClass('inactive');
-           			 } else {
-          			 // Scrolling down, activate current section
-            			 $section.removeClass('inactive');
-				}
-			}
-			})
-	
 			.each(function() {
 
 				var	$this = $(this),
