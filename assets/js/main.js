@@ -80,7 +80,7 @@
 
 					// Scrollex.
 						$section.scrollex({
-							mode: 'top',
+							mode: 'middle',
 							top: '-5vh',
 							bottom: '-5vh',
 							initialize: function() {
@@ -132,7 +132,7 @@
 	// Spotlights.
 		$('.spotlights > section')
 			.scrollex({
-				mode: 'top',
+				mode: 'middle',
 				top: '-5vh',
 				bottom: '-5vh',
 				initialize: function() {
