@@ -172,7 +172,7 @@
 	// Features.
 		$('.features')
 			.scrollex({
-				mode: 'top',
+				mode: 'middle',
 				top: '-20vh',
 				bottom: '-20vh',
 				initialize: function() {
