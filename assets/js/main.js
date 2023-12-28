@@ -133,8 +133,8 @@
 		$('.spotlights > section')
 			.scrollex({
 				mode: 'middle',
-				top: '-20vh',
-				bottom: '-20vh',
+				top: '-1vh',
+				bottom: '-1vh',
 				initialize: function() {
 
 					// Deactivate section.
