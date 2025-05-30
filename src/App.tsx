@@ -3,7 +3,6 @@ import {
   Main,
   Expertise,
   Project,
-  Contact,
   Navigation,
   Footer,
 } from "./components";
@@ -32,7 +31,6 @@ function App() {
             <Main/>
             <Expertise/>
             <Project/>
-            <Contact/>
         </FadeIn>
         <Footer />
     </div>
