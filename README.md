@@ -10,12 +10,12 @@ This is a simple portfolio designed to showcase my past projects, skill sets, an
 
 2. Start the development server:
 
-    npm start
+   npm start
     
 
 3. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
 ## Deployment
-    Run the following command to deploy:
+1. Run the following command to deploy:
     
     npm run deploy
