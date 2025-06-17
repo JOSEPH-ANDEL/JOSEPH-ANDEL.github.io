@@ -3,8 +3,7 @@ import SudokuVideo from '../assets/images/SudokuVideo.gif';
 import InventoryVideo from '../assets/images/InventoryVideo.gif';
 import OS161 from '../assets/images/OS161.png';
 import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
+
 import '../assets/styles/Project.scss';
 
 function Project() {
