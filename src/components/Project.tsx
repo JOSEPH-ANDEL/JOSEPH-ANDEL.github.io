@@ -2,7 +2,7 @@ import React from "react";
 import SudokuVideo from '../assets/images/SudokuVideo.gif';
 import InventoryVideo from '../assets/images/InventoryVideo.gif';
 import OS161 from '../assets/images/OS161.png';
-import mock07 from '../assets/images/mock07.png';
+import MovieDatabase from '../assets/images/MovieDatabase.gif';
 
 import '../assets/styles/Project.scss';
 
@@ -27,9 +27,9 @@ function Project() {
                 <p>Implemented syncronization and system calls within a simulated OS based on MIPS. C was used to implement the necessary functions and system calls for processes including fork, exec, exit, getpid, getppid, and waitpid</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://github.com/JOSEPH-ANDEL/Movie-Database" target="_blank" rel="noreferrer"><img src={MovieDatabase} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/JOSEPH-ANDEL/Movie-Database" target="_blank" rel="noreferrer"><h2>Movie Database</h2></a>
+                <p>This is a local Movie Database that uses SQL and Java in order to easily add, remove, and view both ratings and movies.</p>
             </div>
         </div>
     </div>
