@@ -1,6 +1,7 @@
 import React from "react";
 import SudokuVideo from '../assets/images/SudokuVideo.gif';
 import InventoryVideo from '../assets/images/InventoryVideo.gif';
+import OS161 from '../assets/images/OS161.png';
 import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
@@ -22,9 +23,9 @@ function Project() {
                 <p>Created a Mobile Inventory app for android using Java, Android Studio, and Firebase that allows users to add items to an inventory database and checkout those items with an order.  </p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://gitshare.me/repo/57028763-16be-4e85-949d-1c7a7849196f" target="_blank" rel="noreferrer"><img src={OS161} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://gitshare.me/repo/57028763-16be-4e85-949d-1c7a7849196f" target="_blank" rel="noreferrer"><h2>OS 161</h2></a>
+                <p>Implemented syncronization and system calls within a simulated OS based on MIPS. C was used to implement the necessary functions and system calls for processes including fork, exec, exit, getpid, getppid, and waitpid</p>
             </div>
             <div className="project">
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
