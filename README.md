@@ -1,6 +1,6 @@
 # Developer Portfolio
 
-This is a simple portfolio template designed to showcase my past projects, skill sets, and more.
+This is a simple portfolio designed to showcase my past projects, skill sets, and more.
 
 ## Quick Setup
 
